@@ -1,0 +1,143 @@
+.navbar{
+    position: relative;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    padding: -56px;
+  }
+  
+  * {
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .navbar-brand {
+    margin-right: 400px;
+  }
+  .nav-link {
+    margin-right: 30px;
+    color: whitesmoke !important;
+  }
+  
+  .jumbotron {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    height: 710px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .jumbotron .judul {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 100px;
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  .jumbotron .tagline {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  /* Jumbotron 2 */
+  .jumbotron2 {
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: -32px;
+    background-size: cover;
+    height: 710px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .jumbotron2 .judul2 {
+    font-size: 30px;
+    position: relative;
+    margin-top: 60px;
+  }
+  
+  .popular1 {
+    font-size: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+  }
+  .popular1 img{
+    width: 295px;
+  }
+  .popular2 {
+    font-size: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+    
+  }
+  .popular2 img{
+    width: 200px;
+  }
+  .popular3 {
+    font-size: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+  }
+  .popular3 img{
+    width: 300px;
+  }
+  .halaman3 {
+    height: 600px;
+    text-align: center;
+  }
+  .halaman3 p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  
+  .footer {
+    text-align: center;
+    height: 200px;
+    background-color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 50px;
+  }
+  
+  .list-group-item {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+
+  .my-4 {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

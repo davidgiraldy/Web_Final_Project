@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register master/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Register | Beaudei Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.ico"/>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Beaudei Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="promotion.html">Promotion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Shop
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="makeup-1.html">Make Up Shop</a>
+            <a class="dropdown-item" href="skincare.html">Skin Care Shop</a>
+          </div>
+        </li>
+      </ul>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <footer class="py-5 bg-white">
+        <div class="container">
+          <h2 class="m-0 text-center text-black">Fill Your E-Mail to Fill Your Biodata</h2>
+          <br>
+          
+          
+          
+        </div>
+      <div class="container mt-2 mb-4">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-4 border border-primary shadow rounded pt-2">
+                <div class="text-center"><img src="register master/avatar/avatar2.jpg" class="rounded-circle border p-1"></div>
+                <div class="col-sm-12">
+                    <form method="post" id="singnupFrom" onSubmit="return validation();">
+                        <div class="form-group">
+                            <label class="font-weight-bold">Email</label>
+                            <div class="input-group">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter valid email first">
+                                <div class="input-group-append"><button type="button" class="btn btn-primary" onClick="return emailCheck();"><i class="fa fa-envelope"></i></button></div>
+                            </div>
+                        </div>
+                        <div id="next-form" class="collapse">
+                            <div class="form-group">
+                                <label class="font-weight-bold">User Name <small class="text-danger"><em>This will be your login name!</em></small></label>
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Choose your user name">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Phone (+62)</label>
+                                <input type="text" name="phone" id="phone" class="form-control" placeholder="0812-1234-5678">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Gender</label>
+                                <input type="text" name="gender" id="gender" class="form-control" placeholder="Input Gender">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                            </div>
+                            <div class="form-group">
+                                <label class="font-weight-bold">Confirm Password</label>
+                                <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="***********">
+                                <em id="cp"></em>
+                            </div>
+                            <div class="form-group">
+                                <label><input type="checkbox" name="condition" id="condition"> I agree with the <a href="javascript:;">Terms &amp; Conditions</a> for Registration.</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" value="Sign Up" class="btn btn-block btn-danger">
+                            </div>
+                        </div> <!--/.next-form-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+  <!--footer-->
+  <footer class="py-5 bg-dark fixed-bottom">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Beaudei Store 2020</p>
+      <br>
+      <p class="m-0 text-center text-white">6900 N Grove Street, Los Santos, Indonesia, 11640</p>
+      <br>
+      <p class="m-0 text-center text-white">Main &copy;0813-8888-3004 Faximile &copy; 14022</p>
+      
+    </div>
+    <!--END footer-->
+  </footer>
+    <!--JavaScript -->
+    <script src="register master/password.js"></script>
+    <script src="register master/jquery-3.5.1.slim.min.js"></script>
+    <script src="register master/popper.min.js"></script>
+    <script src="register master/bootstrap.min.js"></script>
+ </body>
+</html>
